@@ -10,7 +10,7 @@ class FilmAnalyticsDashboard {
     async loadData() {
         try {
             // GitHub Raw URLs für Ihre JSON-Dateien
-            const baseUrl = 'https://raw.githubusercontent.com/IHR-USERNAME/film-analytics-dashboard/main/';
+            const baseUrl = 'https://raw.githubusercontent.com/emiliajoerg/film-analytics-dashboard/main/';
             
             const [genresData, moviesData, ratingsData, regressionData, correlationData, statsData] = 
                 await Promise.all([
